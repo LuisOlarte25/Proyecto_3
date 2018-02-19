@@ -159,7 +159,7 @@ a{
 
 .i3 {
   width: 940px;
-  height: 1200px;
+  height: 1400px;
   background-color: black;
   margin: auto;
 }
@@ -190,7 +190,7 @@ a{
 .i3 div aside article section{
   width: 85px;
   height: 85px;
-  background-color: gray;
+  background-color: black;
  float: left;
   border-radius: 50%;
   margin: 3px;
@@ -233,14 +233,14 @@ a{
 .i3 div:nth-child(3) nav article:first-child footer {
   width: 50px;
   height: 240px;
-  background-color: gray;
+  background-color: black;
   float: left;
   border-radius: 50%;
 }
 .i3 div:nth-child(3) nav article:nth-child(2) footer {
   height: 80px;
   width : 135px;
-  background-color: gray;
+  background-color: black;
   float: left;
   border-radius: 50%;
 
@@ -248,10 +248,152 @@ a{
 .i3 div:nth-child(3) nav article:nth-child(3) footer {
   height: 90px;
   width : 90px;
-  background-color: gray;
+  background-color: black;
   border-radius: 50%;
   margin: auto;
   margin: 40px 30px 20px 40px;
+}
+.i3 div:last-child {
+  width: 870px;
+  height: 400px;
+  background-color: blue;
+}
+.i3 div:last-child  nav{
+  width: 810px;
+  height: 340px;
+  background-color: yellow;
+}
+.i3 div:last-child  nav article{
+  width: 750px;
+  height: 280px;
+  background-color: red;
+}
+.i3 div:last-child  nav article footer{
+  width: 690px;
+  height: 220px;
+  background-color: gray;
+}
+.i3 div:last-child  nav article footer figure{
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  float: left;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  margin-top: 70px;
+}
+.i4{
+  width: 1050px;
+  height: 1200px;
+  background-color: black;
+}
+.i4 div{
+  width: 110px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+}
+.i4 div:nth-child(6){
+  width: 80px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+}
+.i4 div:nth-child(7){
+  width: 285px;
+  height: 350px;
+  background-color: red;
+ float: left;
 
+}
+.i4 div:nth-child(8){
+  width: 610px;
+  height: 350px;
+  background-color: red;
+  display: inline-block;
+}
+.i4 div:nth-child(9), .i4 div:nth-child(10), .i4 div:nth-child(11){
+  width: 275px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+}
+.i4 div:last-child{
+  width: 960px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+}
+.i4 div:first-child article, .i4 div:nth-child(3) article, .i4 div:nth-child(5) article{
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.i4 div:nth-child(2) article, .i4 div:nth-child(4) article{
+  width: 50px;
+  height: 130px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.i4 div:nth-child(7) article:first-child{
+  width: 220px;
+  height: 80px;
+  background-color: yellow;
 
+}
+.i4 div:nth-child(7) article:nth-child(2), article:nth-child(3){
+  width: 75px;
+  height: 150px;
+  background-color: yellow;
+  display: inline-block;
+
+}
+.i4 div:nth-child(7) article:first-child section{
+  width: 180px;
+  height: 50px;
+  background-color: black;
+  margin: 16px;
+  border-radius: 50%;
+}
+.i4 div:nth-child(7) article:nth-child(2) section{
+  height : 130px;
+  width: 50px;
+  background-color: black;
+  margin: 0;
+  border-radius: 50%;
+  margin:10px;
+}
+.i4 div:nth-child(7) article:nth-child(3) section{
+  height : 60px;
+  width: 60px;
+  background-color: black;
+  margin: 0;
+  border-radius: 50%;
+  margin: 7px;
+}
+.i4 div:nth-child(8) section{
+  width: 550px;
+  height: 290px;
+  background-color: yellow;
+}
+.i4 div:nth-child(8) section nav{
+  width: 490px;
+  height: 230px;
+  background-color: black;
+}
+.i4 div:nth-child(8) section nav div{
+  width: 100px;
+  height: 160px;
+  background-color: white;
+  float: left;
+}
+.i4 div:nth-child(8) section nav div footer{
+  width: 75px;
+  height: 75px;
+  background-color: black;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 40px 30px 20px 15px;
 }
